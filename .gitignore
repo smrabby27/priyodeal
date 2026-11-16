@@ -1,0 +1,56 @@
+# Video and large binaries
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.docx
+
+# Internal scripts & deployment credentials
+deployer/
+clean_remote_db.js
+fix_dart.js
+run_cmd.js
+test_e2e.js
+*.ps1
+prd_extracted.txt
+prd_unzipped/
+screenshorts-personal income expense ui/
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+priyodeal_app/build/
+priyodeal_app/.dart_tool/
+priyodeal_app/.flutter-plugins
+priyodeal_app/.flutter-plugins-dependencies
+priyodeal_app/.pub/
+priyodeal_app/.pub-cache/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android & iOS build artifacts
+*.apk
+*.aab
+local.properties
+priyodeal_app/android/local.properties
+priyodeal_app/android/.gradle/
+priyodeal_app/android/app/debug/
+priyodeal_app/android/app/profile/
+priyodeal_app/android/app/release/
+
+# Logs & temp
+*.log
+*.tmp
+.DS_Store
+backend/data/*.json
+backend/data/*.sqlite
+backend/downloads/*.apk
